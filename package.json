@@ -11,7 +11,7 @@
     "url": "git+https://github.com/AvinashPande/cypress_pom.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": "Avinash Pandey",
   "type": "commonjs",
   "main": "cypress.config.js",
   "scripts": {
