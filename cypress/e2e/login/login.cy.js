@@ -11,6 +11,7 @@ describe('template spec', () => {
     loginAction.getUrl();
 
     //cy.get("#user-name").type("avinash")
+    cy.log("helo world")
 
     loginAction.login("standard_user","secret_sauce");
 
