@@ -1,5 +1,5 @@
 
- import loginAction from '../../PageObject/PageActions/LoginActions'
+import loginAction from '../../PageObject/PageActions/LoginActions'
 
 
 
@@ -10,10 +10,11 @@ describe('template spec', () => {
 
     loginAction.getUrl();
 
-    //cy.get("#user-name").type("avinash")
+
     cy.log("helo world")
 
-    loginAction.login("standard_user","secret_sauce");
+    loginAction.login("standard_user", "secret_sauce");
+    cy.log("user login")
 
     cy.url().should("include", "https://www.saucedemo.com/v1/inventory.html")
 
